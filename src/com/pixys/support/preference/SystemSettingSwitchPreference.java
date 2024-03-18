@@ -18,10 +18,10 @@
 package com.pixys.support.preference;
 
 import android.content.Context;
-import androidx.preference.SwitchPreference;
+import androidx.preference.SwitchPreferenceCompat;
 import android.util.AttributeSet;
 
-public class SystemSettingSwitchPreference extends SwitchPreference {
+public class SystemSettingSwitchPreference extends SwitchPreferenceCompat {
 
     public SystemSettingSwitchPreference(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);

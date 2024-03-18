@@ -30,12 +30,12 @@ import android.os.UserHandle;
 import android.util.AttributeSet;
 import android.util.Log;
 
-import androidx.preference.SwitchPreference;
+import androidx.preference.SwitchPreferenceCompat;
 
 import java.lang.SecurityException;
 import java.util.List;
 
-public class OverlaySwitchPreference extends SwitchPreference {
+public class OverlaySwitchPreference extends SwitchPreferenceCompat {
     private final static String TAG = "OverlaySwitchPreference";
     private final static String SETTINGSNS = "http://schemas.android.com/apk/res-auto";
 
